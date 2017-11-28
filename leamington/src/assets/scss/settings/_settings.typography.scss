@@ -1,0 +1,320 @@
+///* ========================================================================
+//   #GLOBAL FONTS
+//   ======================================================================== */
+
+  // Globably Scoped Fonts
+
+// GILROY
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Light.eot');
+	src: url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gilroy-Light.woff') format('woff'),
+		url('../fonts/Gilroy-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.eot');
+	src: url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gilroy-Regular.woff') format('woff'),
+		url('../fonts/Gilroy-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Medium.eot');
+	src: url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gilroy-Medium.woff') format('woff'),
+		url('../fonts/Gilroy-Medium.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Bold.eot');
+	src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gilroy-Bold.woff') format('woff'),
+		url('../fonts/Gilroy-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Heavy.eot');
+	src: url('../fonts/Gilroy-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gilroy-Heavy.woff') format('woff'),
+		url('../fonts/Gilroy-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+// DIN
+
+@font-face {
+	font-family: 'DIN';
+	src: url('../fonts/DIN-Light.eot');
+	src: url('../fonts/DIN-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DIN-Light.woff') format('woff'),
+		url('../fonts/DIN-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN';
+	src: url('../fonts/DIN.eot');
+	src: url('../fonts/DIN.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DIN.woff') format('woff'),
+		url('../fonts/DIN.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN';
+	src: url('../fonts/DIN-Medium.eot');
+	src: url('../fonts/DIN-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DIN-Medium.woff') format('woff'),
+		url('../fonts/DIN-Medium.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN';
+	src: url('../fonts/DINBold.eot');
+	src: url('../fonts/DINBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DINBold.woff') format('woff'),
+		url('../fonts/DINBold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'DIN';
+	src: url('../fonts/DIN-Black.eot');
+	src: url('../fonts/DIN-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DIN-Black.woff') format('woff'),
+		url('../fonts/DIN-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+// Avenir
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts/AvenirNextLTPro-Light.eot');
+	src: url('../fonts/AvenirNextLTPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextLTPro-Light.woff') format('woff'),
+		url('../fonts/AvenirNextLTPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts/AvenirNextLTPro-Regular.eot');
+	src: url('../fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextLTPro-Regular.woff') format('woff'),
+		url('../fonts/AvenirNextLTPro-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts/AvenirNextLTPro-Bold.eot');
+	src: url('../fonts/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextLTPro-Bold.woff') format('woff'),
+		url('../fonts/AvenirNextLTPro-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('../fonts/AvenirNextLTPro-Heavy.eot');
+	src: url('../fonts/AvenirNextLTPro-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextLTPro-Heavy.woff') format('woff'),
+		url('../fonts/AvenirNextLTPro-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+// Circular
+
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/CircularStd-Book.eot');
+	src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CircularStd-Book.woff') format('woff'),
+		url('../fonts/CircularStd-Book.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/CircularStd-Medium.eot');
+	src: url('../fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CircularStd-Medium.woff') format('woff'),
+		url('../fonts/CircularStd-Medium.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/CircularStd-Bold.eot');
+	src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CircularStd-Bold.woff') format('woff'),
+		url('../fonts/CircularStd-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/CircularStd-Black.eot');
+	src: url('../fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CircularStd-Black.woff') format('woff'),
+		url('../fonts/CircularStd-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+// Tiempos
+
+@font-face {
+	font-family: 'Tiempos';
+	src: url('../fonts/Tiempos-Text.eot');
+	src: url('../fonts/Tiempos-Text.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Tiempos-Text.woff') format('woff'),
+		url('../fonts/Tiempos-Text.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tiempos';
+	src: url('../fonts/Tiempos-Text-bold.eot');
+	src: url('../fonts/Tiempos-Text-bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Tiempos-Text-bold.woff') format('woff'),
+		url('../fonts/Tiempos-Text-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+// Athelas
+
+@font-face {
+	font-family: 'Athelas';
+	src: url('../fonts/AthelasItalic.eot');
+	src: url('../fonts/AthelasItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AthelasItalic.woff') format('woff'),
+		url('../fonts/AthelasItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Athelas';
+	src: url('../fonts/AthelasRegular.eot');
+	src: url('../fonts/AthelasRegular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AthelasRegular.woff') format('woff'),
+		url('../fonts/AthelasRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Athelas';
+	src: url('../fonts/AthelasBoldItalic.eot');
+	src: url('../fonts/AthelasBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AthelasBoldItalic.woff') format('woff'),
+		url('../fonts/AthelasBoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Athelas';
+	src: url('../fonts/AthelasBold.eot');
+	src: url('../fonts/AthelasBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AthelasBold.woff') format('woff'),
+		url('../fonts/AthelasBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+// Nitti
+
+@font-face {
+	font-family: 'Nitti';
+	src: url('../fonts/Nitti-Normal.eot');
+	src: url('../fonts/Nitti-Normal.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Nitti-Normal.woff') format('woff'),
+		url('../fonts/Nitti-Normal.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nitti';
+	src: url('../fonts/Nitti-Bold.eot');
+	src: url('../fonts/Nitti-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Nitti-Bold.woff') format('woff'),
+		url('../fonts/Nitti-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+// Declare Font Variables
+
+$g-font-one: 'Gilroy';
+$g-font-two: 'Avenir';
+$g-font-mono: 'Nitti';
+
+// Apply Fonts To Elements
+
+html {
+	font-family: $g-font-two;
+	color: $c-font;
+}
+
+body {
+	font-family: $g-font-two;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $g-font-one;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: $g-font-mono;
+}
+
+a {
+	font-family: $g-font-one;
+}

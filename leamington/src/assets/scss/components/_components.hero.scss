@@ -1,0 +1,117 @@
+.hero {
+	background: #F3F2DD;
+	@include cover();
+	@include hw();
+	position: relative;
+	overflow: hidden;
+
+	@include mq(m) {
+		display: none;
+	}
+}
+
+	.hero .logo {
+		position: absolute;
+		max-width: 40%;
+		left: 50%;
+		top: 10%;
+		transform: translateX(-50%);
+	}
+
+	.one,
+	.two,
+	.two-b,
+	.three,
+	.three-b,
+	.four,
+	.five,
+	.six,
+	.seven,
+	.eight {
+		position: absolute;
+	}
+
+	.one {
+		width: 90%;
+		left: 50%;
+		top: 10%;
+		transform: translateX(-50%);
+	}
+
+	.two {
+		width: 80%;
+		left: 50%;
+		top: 15%;
+		transform: translateX(-50%);
+	}
+
+	.two-b {
+		height: 75%;
+		left: 10%;
+		bottom: 15%;
+	}
+
+	.three {
+		bottom: 10%;
+	}
+
+	.three-b {
+		height: 75%;
+		right: 10%;
+		bottom: 10%;
+	}
+
+	.four {
+		bottom: 12%;
+		left: 50%;
+		width: 95%;
+		transform: translateX(-50%);
+	}
+
+	.five {
+		bottom: 8%;
+	}
+
+	.six {
+		width: 15%;
+		right: -5%;
+		bottom: 15%;
+	}
+
+	.seven {
+		width: 60%;
+		bottom: 15%;
+		left: 20%;
+	}
+
+	.eight {
+		bottom: -2%;
+		left: -2%;
+		width: 110%;
+	}
+
+.hero-mobile {
+	display: none;
+	@include cover();
+	@include hw();
+	position: relative;
+	overflow: hidden;
+	background: #F3F2DE;
+	align-items: center;
+	justify-content: center;
+
+	img {
+		width: 90%;
+		margin-top: -10rem;
+	}
+
+	@include mq(m) {
+		display: flex;
+	}
+
+	.bg {
+		position: absolute;
+		bottom: 0;
+		width: 100vw;
+	}
+}
